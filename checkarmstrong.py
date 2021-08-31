@@ -1,5 +1,5 @@
 def power(x,y):
-    if y
+    if y==0:
         return 1
     if y%2==0:
         return power(x,y//2) * power(x,y//2)
@@ -19,5 +19,6 @@ def isarmstrong(x):
         sum1= sum1 + power(r,n)
         temp=temp//10
     return (sum1 == x)
-x=int(inupt())
+x=int(input())
 print(isarmstrong(x))
+#check armstrong code
