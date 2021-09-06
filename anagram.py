@@ -4,7 +4,7 @@ str2=input().lower()
 c1=collections.Counter(str1)
 c2=collections.Counter(str2)
 flag=0 #flag variable
-for c in c1:#for loop
+for c in c1:
     print(c,c1[c])
     if c1[c] != c2[c]:
         flag=1
